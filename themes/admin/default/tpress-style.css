@@ -1,0 +1,453 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:700,400);
+/*
+Theme Name:     Default TeamPress Theme
+Theme URI:      http://www.marvinlabs.com/
+Author:         MarvinLabs
+Author URI:     http://www.marvinlabs.com
+Version:        1.0
+*/
+/** Add icons to the TeamPress project post type */
+#icon-tpress-home, #icon-tpress-dashboard {
+  background: url("images/ic_project_32.png") no-repeat; }
+
+/** Styling the main TeamPress menu item */
+#toplevel_page_tpress-home .wp-menu-image {
+  background: url("images/ic_dashboard_menu.png") no-repeat 6px 7px !important; }
+
+#toplevel_page_tpress-home:hover .wp-menu-image,
+#toplevel_page_tpress-home.current .wp-menu-image,
+#toplevel_page_tpress-home.wp-has-current-submenu .wp-menu-image {
+  background-position: 6px -17px !important; }
+
+#tpress_dashboard_rightnow td.b {
+  font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif; }
+
+#tpress_dashboard_rightnow .versions .b {
+  font-weight: bold; }
+
+#tpress_dashboard_rightnow p.sub,
+#tpress_dashboard_rightnow .table, #tpress_dashboard_rightnow .versions {
+  margin: -12px; }
+
+#tpress_dashboard_rightnow .table-container {
+  margin-bottom: 20px; }
+
+#tpress_dashboard_rightnow p.sub {
+  padding: 5px 0 15px;
+  color: #8f8f8f;
+  font-size: 14px;
+  position: absolute;
+  top: -17px;
+  left: 15px; }
+
+#tpress_dashboard_rightnow .inside {
+  padding-top: 20px; }
+
+#tpress_dashboard_rightnow .table {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border-top: #ECECEC 1px solid; }
+
+#tpress_dashboard_rightnow .table_left {
+  float: left;
+  width: 45%; }
+
+#tpress_dashboard_rightnow .table_right {
+  float: right;
+  width: 45%; }
+
+#tpress_dashboard_rightnow table td {
+  padding: 3px 0;
+  white-space: nowrap; }
+
+#tpress_dashboard_rightnow table tr.first td {
+  border-top: none; }
+
+#tpress_dashboard_rightnow td.b {
+  padding-right: 6px;
+  text-align: right;
+  font-size: 14px;
+  width: 1%; }
+
+#tpress_dashboard_rightnow td.b a {
+  font-size: 18px; }
+
+#tpress_dashboard_rightnow td.b a:hover {
+  color: #d54e21; }
+
+#tpress_dashboard_rightnow .t {
+  font-size: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  color: #777; }
+
+#tpress_dashboard_rightnow .t a {
+  white-space: nowrap; }
+
+#tpress_dashboard_rightnow .versions {
+  padding: 6px 10px 12px;
+  clear: both; }
+
+#tpress_dashboard_rightnow a.button {
+  float: right;
+  clear: right;
+  position: relative;
+  top: -5px; }
+
+/* Dashboard: MS Specific Data */
+#tpress_dashboard_rightnow p.musub {
+  margin-top: 12px;
+  border-top: 1px solid #ececec;
+  padding-left: 16px;
+  position: static; }
+
+.rtl #tpress_dashboard_rightnow p.musub {
+  padding-left: 0;
+  padding-right: 16px; }
+
+#tpress_dashboard_rightnow td.b a.musublink {
+  font-size: 16px; }
+
+#tpress_dashboard_rightnow div.musubtable {
+  border-top: none; }
+
+#tpress_dashboard_rightnow div.musubtable .t {
+  white-space: normal; }
+
+form.tpress_form input, form.tpress_form textarea, form.tpress_form select, form.tpress_form select[multiple] {
+  width: 100%; }
+form.tpress_form input.button-primary {
+  width: auto; }
+
+.tpress-panel {
+  text-align: left; }
+  .tpress-panel .tpress-panel-title {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.3em; }
+
+.tpress-card {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+  min-width: 271px;
+  min-height: 200px;
+  margin: 1em 2% 0 0;
+  -webkit-box-shadow: 0 5px 10px #eeeeee;
+  box-shadow: 0 5px 10px #eeeeee;
+  border: 1px solid #dfdfdf;
+  background: #f9f9f9;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  .tpress-card:hover {
+    background: #fdfdfd;
+    -webkit-box-shadow: 0 3px 7px #aaaaaa;
+    box-shadow: 0 3px 7px #aaaaaa; }
+  .tpress-card .card-title {
+    margin: 0;
+    text-align: left;
+    overflow: hidden;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.2em;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #dfdfdf;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #f9f9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #ececec));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -o-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: linear-gradient(top, #f9f9f9, #ececec);
+    text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0; }
+    .tpress-card .card-title a, .tpress-card .card-title a:visited, .tpress-card .card-title a:active {
+      display: inline-block;
+      padding: 10px;
+      color: #21759b;
+      text-decoration: none; }
+      .tpress-card .card-title a:hover, .tpress-card .card-title a:visited:hover, .tpress-card .card-title a:active:hover {
+        color: #333;
+        text-decoration: none; }
+  .tpress-card .card-header {
+    margin: 3px 10px; }
+  .tpress-card .card-content {
+    color: #333;
+    min-height: 100%; }
+  .tpress-card .card-footer {
+    position: absolute;
+    margin: 3px 10px;
+    bottom: 0; }
+    .tpress-card .card-footer .project-users {
+      margin: 0;
+      padding: 0;
+      overflow: hidden; }
+      .tpress-card .card-footer .project-users li {
+        float: left;
+        width: 35px;
+        margin: 0 0 0 -8px;
+        padding: 0; }
+      .tpress-card .card-footer .project-users li:first-child {
+        margin: 0;
+        padding: 0; }
+
+.tpress-block {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 47.5%;
+  margin: 2em 1% 2em 1%;
+  -webkit-box-shadow: 0 5px 10px #eeeeee;
+  box-shadow: 0 5px 10px #eeeeee;
+  border: 1px solid #dfdfdf;
+  background: #f9f9f9;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  .tpress-block:hover {
+    background: #fdfdfd;
+    -webkit-box-shadow: 0 3px 7px #aaaaaa;
+    box-shadow: 0 3px 7px #aaaaaa; }
+  .tpress-block .block-title {
+    position: relative;
+    margin: 0;
+    padding: 0 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #dfdfdf;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #f9f9f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #ececec));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -moz-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -ms-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: -o-linear-gradient(top, #f9f9f9, #ececec);
+    background-image: linear-gradient(top, #f9f9f9, #ececec); }
+    .tpress-block .block-title h3 {
+      display: inline-block;
+      width: auto;
+      margin: 0.7em 0;
+      text-align: left;
+      overflow: hidden;
+      font-family: "Libre Baskerville", serif;
+      font-size: 1.2em;
+      text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0; }
+    .tpress-block .block-title span.actions {
+      position: absolute;
+      right: 10px;
+      bottom: 0.7em;
+      text-align: right; }
+    .tpress-block .block-title a, .tpress-block .block-title a:visited, .tpress-block .block-title a:active {
+      color: #21759b;
+      text-decoration: none; }
+      .tpress-block .block-title a:hover, .tpress-block .block-title a:visited:hover, .tpress-block .block-title a:active:hover {
+        color: #333;
+        text-decoration: none; }
+  .tpress-block .block-header {
+    margin: 3px 10px; }
+  .tpress-block .block-content {
+    color: #333;
+    min-height: 100%;
+    margin: 10px; }
+  .tpress-block .block-footer {
+    position: absolute;
+    margin: 3px 10px;
+    bottom: 0; }
+
+.pin-icon {
+  background: url("images/ic_project_pinned.png") 0 0 no-repeat; }
+  .pin-icon:hover {
+    background: url("images/ic_project_pinned.png") 0 -32px no-repeat; }
+
+.tag {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  padding: 2px 5px;
+  cursor: pointer;
+  background: #666;
+  color: #fff; }
+  .tag:hover {
+    color: #fff;
+    background: #333; }
+
+.tag-on {
+  background: #666;
+  color: #fff; }
+
+.tag-off {
+  background: #999;
+  color: #ccc; }
+
+.tpress-user-badge {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
+  .tpress-user-badge:hover {
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); }
+  .tpress-user-badge .avatar {
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 999px;
+    border-radius: 999px; }
+
+a.tpress-user-badge, a.tpress-user-badge:visited, a.tpress-user-badge:active, a.tpress-user-badge:hover {
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+  background: #fff;
+  font-weight: bold; }
+
+.tpress-project-content {
+  display: inline-block;
+  width: 60%;
+  margin: 0 1%; }
+
+#tpress_block_project_content {
+  width: 65%;
+  margin: 0 1%; }
+
+#tpress_block_project_statistics {
+  width: 30%;
+  margin: 0 1%; }
+
+/* The block that shows users of a project */
+#tpress_block_project_users.tpress-block ul.project-users {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  #tpress_block_project_users.tpress-block ul.project-users li {
+    text-align: center;
+    margin: 0;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 90px;
+    height: 106px; }
+#tpress_block_project_users.tpress-block .tpress-user-badge {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+  margin: 0 auto 10px; }
+  #tpress_block_project_users.tpress-block .tpress-user-badge .avatar {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 999px;
+    border-radius: 999px; }
+#tpress_block_project_users.tpress-block .name {
+  font-size: 12px;
+  line-height: 18px; }
+
+/* The block that shows statistics on a project home */
+#tpress_block_project_statistics a {
+  text-decoration: none; }
+
+#tpress_block_project_statistics td.b {
+  font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif; }
+
+#tpress_block_project_statistics p.sub,
+#tpress_block_project_statistics .table, #tpress_block_project_statistics .versions {
+  margin: -12px; }
+
+#tpress_block_project_statistics .inside {
+  position: relative;
+  padding: 20px 2px 0 0px;
+  line-height: 1.4em; }
+
+#tpress_block_project_statistics .table-container {
+  margin-bottom: 20px; }
+
+#tpress_block_project_statistics p.sub {
+  padding: 5px 0 15px;
+  color: #8f8f8f;
+  font-size: 14px;
+  position: absolute;
+  top: -17px;
+  left: 15px; }
+
+#tpress_block_project_statistics .table {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border-top: #ECECEC 1px solid; }
+
+#tpress_block_project_statistics .table_left {
+  float: left;
+  width: 45%; }
+
+#tpress_block_project_statistics .table_right {
+  float: right;
+  width: 45%; }
+
+#tpress_block_project_statistics table td {
+  padding: 3px 0;
+  white-space: nowrap; }
+
+#tpress_block_project_statistics table tr.first td {
+  border-top: none; }
+
+#tpress_block_project_statistics td.b {
+  padding-right: 6px;
+  text-align: right;
+  font-size: 14px;
+  width: 1%; }
+
+#tpress_block_project_statistics td.b a {
+  font-size: 18px; }
+
+#tpress_block_project_statistics td.b a:hover {
+  color: #d54e21; }
+
+#tpress_block_project_statistics .t {
+  font-size: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  color: #777; }
+
+#tpress_block_project_statistics .t a {
+  white-space: nowrap; }
+
+/* Dashboard: MS Specific Data */
+#tpress_block_project_statistics p.musub {
+  margin-top: 12px;
+  border-top: 1px solid #ececec;
+  padding-left: 16px;
+  position: static; }
+
+.rtl #tpress_block_project_statistics p.musub {
+  padding-left: 0;
+  padding-right: 16px; }
+
+#tpress_block_project_statistics td.b a.musublink {
+  font-size: 16px; }
+
+#tpress_block_project_statistics div.musubtable {
+  border-top: none; }
+
+#tpress_block_project_statistics div.musubtable .t {
+  white-space: normal; }
+
+#loading_indicator {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2); }
+  #loading_indicator img {
+    position: absolute;
+    top: 50%;
+    left: 50%; }

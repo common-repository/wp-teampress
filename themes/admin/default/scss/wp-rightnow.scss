@@ -1,0 +1,118 @@
+#tpress_dashboard_rightnow td.b {
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+}
+
+#tpress_dashboard_rightnow .versions .b {
+	font-weight: bold;
+}
+
+#tpress_dashboard_rightnow p.sub,
+#tpress_dashboard_rightnow .table, #tpress_dashboard_rightnow .versions {
+	margin: -12px;
+}
+
+#tpress_dashboard_rightnow .table-container {
+	margin-bottom: 20px;
+}
+
+#tpress_dashboard_rightnow p.sub {
+	padding: 5px 0 15px;
+	color: #8f8f8f;
+	font-size: 14px;
+	position: absolute;
+	top: -17px;
+	left: 15px;
+}
+
+#tpress_dashboard_rightnow .inside {
+	padding-top: 20px;
+}
+
+#tpress_dashboard_rightnow .table {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	border-top: #ECECEC 1px solid;
+}
+
+#tpress_dashboard_rightnow .table_left {
+	float: left;
+	width: 45%;
+}
+
+#tpress_dashboard_rightnow .table_right {
+	float: right;
+	width: 45%;
+}
+
+#tpress_dashboard_rightnow table td {
+	padding: 3px 0;
+	white-space: nowrap;
+}
+
+#tpress_dashboard_rightnow table tr.first td {
+	border-top: none;
+}
+
+#tpress_dashboard_rightnow td.b {
+	padding-right: 6px;
+	text-align: right;
+	font-size: 14px;
+	width: 1%;
+}
+
+#tpress_dashboard_rightnow td.b a {
+	font-size: 18px;
+}
+
+#tpress_dashboard_rightnow td.b a:hover {
+	color: #d54e21;
+}
+
+#tpress_dashboard_rightnow .t {
+	font-size: 12px;
+	padding-right: 12px;
+	padding-top: 6px;
+	color: #777;
+}
+
+#tpress_dashboard_rightnow .t a {
+	white-space: nowrap;
+}
+
+#tpress_dashboard_rightnow .versions {
+	padding: 6px 10px 12px;
+	clear: both;
+}
+
+#tpress_dashboard_rightnow a.button {
+	float: right;
+	clear: right;
+	position: relative;
+	top: -5px;
+}
+
+/* Dashboard: MS Specific Data */
+#tpress_dashboard_rightnow p.musub {
+	margin-top: 12px;
+	border-top: 1px solid #ececec;
+	padding-left: 16px;
+	position: static;
+}
+
+.rtl #tpress_dashboard_rightnow p.musub {
+	padding-left: 0;
+	padding-right: 16px;
+}
+
+#tpress_dashboard_rightnow td.b a.musublink {
+	font-size: 16px;
+}
+
+#tpress_dashboard_rightnow div.musubtable {
+	border-top: none;
+}
+
+#tpress_dashboard_rightnow div.musubtable .t {
+	white-space: normal;
+}

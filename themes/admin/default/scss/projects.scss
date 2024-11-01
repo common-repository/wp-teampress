@@ -1,0 +1,221 @@
+.pin-icon {
+	background: url( 'images/ic_project_pinned.png' ) 0 0 no-repeat;
+	&:hover {
+		background: url( 'images/ic_project_pinned.png' ) 0 -32px no-repeat;
+	}
+}
+
+.tag {
+	@include border-radius(10px);
+	font-size: 0.8em;
+	padding: 2px 5px;
+	cursor: pointer;
+	background: #666;
+	color: #fff;
+
+	&:hover {
+		color: #fff;
+		background: #333;
+	}
+}
+
+.tag-on {
+	background: #666;
+	color: #fff;
+}
+
+.tag-off {
+	background: #999;
+	color: #ccc;
+}
+		
+.tpress-user-badge {
+	display: inline-block;
+	width: $user-badge-size-small;
+	height: $user-badge-size-small;
+	line-height: $user-badge-size-small;
+	@include border-radius(999px);	
+	@include box-shadow( 0 1px 3px rgba(0, 0, 0, .4) );
+		
+	&:hover {
+		@include box-shadow( 0 2px 5px rgba(0, 0, 0, .4) );
+	}
+	
+	.avatar {
+		width: $user-badge-size-small;
+		height: $user-badge-size-small;
+		@include border-radius(999px);
+	}
+}
+
+a.tpress-user-badge, a.tpress-user-badge:visited, a.tpress-user-badge:active, a.tpress-user-badge:hover {
+	text-decoration: none;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	font-weight: bold;
+}
+
+.tpress-project-content {
+	display: inline-block;
+	width: 60%;
+	margin: 0 1%;
+}
+
+#tpress_block_project_content {
+	width: 65%;
+	margin: 0 1%;
+}
+
+#tpress_block_project_statistics {
+	width: 30%;
+	margin: 0 1%;
+}
+
+/* The block that shows users of a project */
+#tpress_block_project_users.tpress-block {
+	ul.project-users {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		
+		li {
+			text-align: center;
+			margin: 0;
+			float: left;
+			margin: 0 10px 10px 0;
+			width: $user-badge-size-big;
+			height: $user-badge-size-medium + 10px + 2*18px;
+		}
+	}
+	
+	.tpress-user-badge {
+		display: block;
+		width: $user-badge-size-medium;
+		height: $user-badge-size-medium;
+		line-height: $user-badge-size-medium;
+		@include border-radius(999px);
+		margin: 0 auto 10px;
+		
+		.avatar {
+			width: $user-badge-size-medium;
+			height: $user-badge-size-medium;
+			@include border-radius(999px);
+		}		
+	}	
+	
+	.name {
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+/* The block that shows statistics on a project home */
+#tpress_block_project_statistics a {
+	text-decoration: none;
+}
+
+#tpress_block_project_statistics td.b {
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+}
+
+#tpress_block_project_statistics p.sub,
+#tpress_block_project_statistics .table, #tpress_block_project_statistics .versions {
+	margin: -12px;
+}
+
+#tpress_block_project_statistics .inside {
+	position: relative;
+	padding: 20px 2px 0 0px;
+	line-height: 1.4em;
+}
+
+#tpress_block_project_statistics .table-container {
+	margin-bottom: 20px;
+}
+
+#tpress_block_project_statistics p.sub {
+	padding: 5px 0 15px;
+	color: #8f8f8f;
+	font-size: 14px;
+	position: absolute;
+	top: -17px;
+	left: 15px;
+}
+
+#tpress_block_project_statistics .table {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	border-top: #ECECEC 1px solid;
+}
+
+#tpress_block_project_statistics .table_left {
+	float: left;
+	width: 45%;
+}
+
+#tpress_block_project_statistics .table_right {
+	float: right;
+	width: 45%;
+}
+
+#tpress_block_project_statistics table td {
+	padding: 3px 0;
+	white-space: nowrap;
+}
+
+#tpress_block_project_statistics table tr.first td {
+	border-top: none;
+}
+
+#tpress_block_project_statistics td.b {
+	padding-right: 6px;
+	text-align: right;
+	font-size: 14px;
+	width: 1%;
+}
+
+#tpress_block_project_statistics td.b a {
+	font-size: 18px;
+}
+
+#tpress_block_project_statistics td.b a:hover {
+	color: #d54e21;
+}
+
+#tpress_block_project_statistics .t {
+	font-size: 12px;
+	padding-right: 12px;
+	padding-top: 6px;
+	color: #777;
+}
+
+#tpress_block_project_statistics .t a {
+	white-space: nowrap;
+}
+
+/* Dashboard: MS Specific Data */
+#tpress_block_project_statistics p.musub {
+	margin-top: 12px;
+	border-top: 1px solid #ececec;
+	padding-left: 16px;
+	position: static;
+}
+
+.rtl #tpress_block_project_statistics p.musub {
+	padding-left: 0;
+	padding-right: 16px;
+}
+
+#tpress_block_project_statistics td.b a.musublink {
+	font-size: 16px;
+}
+
+#tpress_block_project_statistics div.musubtable {
+	border-top: none;
+}
+
+#tpress_block_project_statistics div.musubtable .t {
+	white-space: normal;
+}

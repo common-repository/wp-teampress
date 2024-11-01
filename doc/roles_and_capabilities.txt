@@ -1,0 +1,42 @@
+This file documents the actions provided by TeamPress to plugin developpers. 
+
+== TeamPress ==
+
+- tpress_manage_settings
+
+== TPressUpdaterPlugin ==
+
+- 
+
+== TPressDashboardPlugin ==
+
+- tpress_view_dashboard
+
+== TPressProjectsPlugin ==
+
+- tpress_manage_projects 		(create/delete projects)
+
+  /!\ All capabilities listed below are relative to a project's user group
+
+- tpress_update_project			(update a project properties)
+- tpress_manage_project_users	(add/remove users from a project)
+
+== TPressTicketsPlugin ==
+
+  /!\ All capabilities listed below are relative to a project's user group
+
+- tpress_manage_tickets 		(create/delete)
+- tpress_update_ticket 			(update a ticket properties)
+- tpress_create_ticket			(create a ticket)
+- tpress_assign_ticket			(assign a ticket to someone)
+
+== TPressTasksPlugin ==
+
+  /!\ All capabilities listed below are relative to a project's user group
+
+- tpress_manage_tasks 			(create/delete)
+- tpress_update_task 			(update a task properties)
+- tpress_create_task			(create a task)
+- tpress_mark_task_completed	(mark a task as completed)			
+
+- tpress_manage_task_lists 		(create/delete)

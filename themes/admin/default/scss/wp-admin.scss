@@ -1,0 +1,15 @@
+/** Add icons to the TeamPress project post type */
+#icon-tpress-home, #icon-tpress-dashboard {
+	background: url( 'images/ic_project_32.png' ) no-repeat;
+}
+
+/** Styling the main TeamPress menu item */
+#toplevel_page_tpress-home .wp-menu-image {
+	background: url( 'images/ic_dashboard_menu.png' ) no-repeat 6px 7px !important;
+}
+
+#toplevel_page_tpress-home:hover .wp-menu-image, 
+#toplevel_page_tpress-home.current .wp-menu-image, 
+#toplevel_page_tpress-home.wp-has-current-submenu .wp-menu-image {
+	background-position:6px -17px !important;
+}

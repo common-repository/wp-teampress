@@ -1,0 +1,78 @@
+.tpress-card {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 22%;
+	min-width: 271px;
+	min-height: 200px;
+	margin: 1em 2% 0 0;
+	
+	@include box-shadow(0 5px 10px #eee);
+	
+	border: 1px solid #dfdfdf;
+	background: #f9f9f9;
+	
+	&:hover {
+		background: tint( #f9f9f9, 80% );
+		@include box-shadow(0 3px 7px #aaa);
+	}
+	
+	@include border-radius(3px);
+	
+	.card-title {
+		margin: 0;
+		text-align: left;
+		overflow: hidden;
+		font: {
+			family: $font-family-serif;
+			size: 1.2em;
+		}
+		
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #dfdfdf;
+		@include border-top-radius(3px);
+		@include linear-gradient(top, #f9f9f9, #ececec);
+		text-shadow: rgba(255,255,255,0.8) 0 1px 0;
+		
+		a, a:visited, a:active {
+			display: inline-block;
+			padding: 10px;
+			color: #21759b;
+			text-decoration: none;
+			&:hover { color: #333; text-decoration: none; }
+		}
+	}
+	
+	.card-header {
+		margin: 3px 10px;
+	}
+	
+	.card-content {
+		color: #333; 
+		min-height: 100%;
+	}
+	
+	.card-footer {
+		position: absolute;
+		margin: 3px 10px;
+		bottom: 0;
+		
+		.project-users {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			
+			li {
+				float: left;
+				width: $user-badge-size-small;
+				margin: 0 0 0 -8px;
+				padding: 0;
+			}
+			li:first-child {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,564 @@
+# Copyright (C) 2012 TeamPress
+# This file is distributed under the same license as the TeamPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TeamPress 1.0\n"
+"POT-Creation-Date: 2012-11-30 09:29+0100\n"
+"PO-Revision-Date: 2012-11-30 09:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: TeamPress\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../teampress.php:92
+msgid "You can only register plugin classes inheriting from TPressPluginBase"
+msgstr ""
+
+#: ../teampress.php:154 ../teampress.php:159
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:146
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:149
+#: ../includes/core/projects/TPressProjectsPlugin.php:112
+#: ../includes/core/projects/TPressProjectsPlugin.php:115
+#: ../includes/core/settings/TPressSettingsPlugin.php:149
+#: ../includes/core/settings/TPressSettingsPlugin.php:152
+#: ../includes/core/tasks/TPressTasksPlugin.php:130
+#: ../includes/core/tasks/TPressTasksPlugin.php:133
+#: ../includes/core/updater/TPressUpdaterPlugin.php:92
+#: ../includes/core/updater/TPressUpdaterPlugin.php:95
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../teampress.php:283
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../teampress.php:284
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../teampress.php:285
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../teampress.php:286
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../teampress.php:297
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:178
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../teampress.php:298
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:179
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../teampress.php:299
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../teampress.php:371
+msgid "TeamPress Administrator"
+msgstr ""
+
+#: ../teampress.php:377
+msgid "TeamPress Project Leader"
+msgstr ""
+
+#: ../teampress.php:383
+msgid "TeamPress Project Co-worker"
+msgstr ""
+
+#: ../teampress.php:389
+msgid "TeamPress Project Client"
+msgstr ""
+
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:27
+msgid "Dashboard Core Plugin"
+msgstr ""
+
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:68
+msgid "Right Now in TeamPress"
+msgstr ""
+
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:101
+msgid "TeamPress Dashboard"
+msgstr ""
+
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:102
+msgid "TeamPress"
+msgstr ""
+
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:111
+#: ../includes/core/dashboard/view/TPressDashboard.inc.php:3
+msgid "TeamPress &raquo; Dashboard"
+msgstr ""
+
+#: ../includes/core/dashboard/TPressDashboardPlugin.php:112
+msgid "Dashboard"
+msgstr ""
+
+#: ../includes/core/dashboard/view/TPressDashboardRightNowWidget.inc.php:45
+#, php-format
+msgid "You are using <span class=\"b\">TeamPress %s</span>."
+msgstr ""
+
+#: ../includes/core/projects/TPressProjectsPlugin.php:31
+msgid "Projects Core Plugin"
+msgstr ""
+
+#: ../includes/core/projects/TPressProjectsPlugin.php:83
+#: ../includes/core/projects/model/TPressProject.php:144
+#: ../includes/core/projects/model/TPressProject.php:175
+#: ../includes/core/tasks/TPressTasksPlugin.php:93
+msgid "Projects"
+msgstr ""
+
+#: ../includes/core/projects/TPressProjectsPlugin.php:91
+#: ../includes/core/projects/model/TPressProject.php:145
+msgid "Project"
+msgid_plural "Projects"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/core/projects/model/TPressProject.php:143
+msgid "TeamPress &raquo; Projects"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:146
+msgid "All Projects"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:147
+#: ../includes/core/projects/model/TPressProject.php:151
+msgid "New Project"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:148
+msgid "Create New Project"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:149
+#: ../includes/core/tasks/model/TPressTask.php:228
+#: ../includes/core/tasks/model/TPressTaskList.php:184
+msgid "Edit"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:150
+msgid "Edit Project"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:152
+#: ../includes/core/projects/model/TPressProject.php:153
+msgid "View Project"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:154
+msgid "Search Projects"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:155
+msgid "No projects found"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:156
+msgid "No projects found in Trash"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:157
+msgid "Parent Project:"
+msgstr ""
+
+#: ../includes/core/projects/model/TPressProject.php:176
+msgid "A Project in the TeamPress sense"
+msgstr ""
+
+#: ../includes/core/settings/TPressSettingsPlugin.php:35
+msgid "Settings Core Plugin"
+msgstr ""
+
+#: ../includes/core/settings/TPressSettingsPlugin.php:79
+#: ../includes/core/settings/view/TPressSettingsTemplate.inc.php:2
+msgid "TeamPress &raquo; Settings"
+msgstr ""
+
+#: ../includes/core/settings/TPressSettingsPlugin.php:80
+msgid "Settings"
+msgstr ""
+
+#: ../includes/core/settings/TPressSettingsPlugin.php:116
+msgid ""
+"registerSettingsView only accepts TPressSettingsView implementations as "
+"parameter"
+msgstr ""
+
+#: ../includes/core/settings/TPressSettingsPlugin.php:123
+#, php-format
+msgid "A settings view with the slug %s is already registered"
+msgstr ""
+
+#: ../includes/core/settings/view/TPressMainSettingsView.php:15
+msgid "Global Settings"
+msgstr ""
+
+#: ../includes/core/settings/view/TPressRolesSettingsView.inc.php:73
+msgid "Reset All TeamPress Capabilities"
+msgstr ""
+
+#: ../includes/core/settings/view/TPressRolesSettingsView.php:15
+msgid "Roles & Capabilities"
+msgstr ""
+
+#: ../includes/core/settings/view/TPressSettingsTemplate.inc.php:6
+msgid ""
+"You are not allowed to manage TeamPress! Please contact your administrator"
+msgstr ""
+
+#: ../includes/core/settings/view/TPressSettingsTemplate.inc.php:35
+msgid "Save Settings"
+msgstr ""
+
+#: ../includes/core/tasks/TPressTasksPlugin.php:31
+msgid "Tasks Core Plugin"
+msgstr ""
+
+#: ../includes/core/tasks/TPressTasksPlugin.php:101
+#: ../includes/core/tasks/model/TPressTaskList.php:180
+msgid "Task List"
+msgid_plural "Task Lists"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/core/tasks/TPressTasksPlugin.php:109
+#: ../includes/core/tasks/model/TPressTask.php:224
+msgid "Task"
+msgid_plural "Tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/core/tasks/model/TPressTask.php:222
+msgid "TeamPress &raquo; Tasks"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:223
+#: ../includes/core/tasks/model/TPressTask.php:254
+#: ../includes/core/tasks/model/TPressTaskList.php:210
+msgid "Tasks"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:225
+msgid "All Tasks"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:226
+#: ../includes/core/tasks/model/TPressTask.php:230
+msgid "New Task"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:227
+msgid "Create New Task"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:229
+msgid "Edit Task"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:231
+#: ../includes/core/tasks/model/TPressTask.php:232
+msgid "View Task"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:233
+msgid "Search Tasks"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:234
+msgid "No tasks found"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:235
+msgid "No tasks found in Trash"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:236
+msgid "Parent Task:"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:255
+#: ../includes/core/tasks/model/TPressTaskList.php:211
+msgid "A Task in the TeamPress sense"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:273
+msgid "Task Properties"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:277
+msgid "Related Task List"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:300
+msgid "Due Date"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:321
+msgid "Completed"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTask.php:337
+msgid "Mark this task as completed"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:178
+msgid "TeamPress &raquo; Task Lists"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:179
+msgid "Task Lists"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:181
+msgid "All Task Lists"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:182
+#: ../includes/core/tasks/model/TPressTaskList.php:186
+msgid "New Task List"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:183
+msgid "Create New Task List"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:185
+msgid "Edit Task List"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:187
+#: ../includes/core/tasks/model/TPressTaskList.php:188
+msgid "View Task List"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:189
+msgid "Search Task Lists"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:190
+msgid "No task lists found"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:191
+msgid "No task lists found in Trash"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:192
+msgid "Parent Task List:"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:229
+msgid "Task List Properties"
+msgstr ""
+
+#: ../includes/core/tasks/model/TPressTaskList.php:233
+msgid "Related Project"
+msgstr ""
+
+#: ../includes/core/updater/TPressUpdaterPlugin.php:22
+msgid "Updater Core Plugin"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:517
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""

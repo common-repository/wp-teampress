@@ -1,0 +1,53 @@
+This file documents the actions provided by TeamPress to plugin developpers. 
+
+== TeamPress ==
+
+- tpress_register_plugin       	( tpress : TeamPress )
+- tpress_ready                 	( tpress : TeamPress )
+- tpress_after_setup_globals   	( tpress : TeamPress )
+- tpress_after_setup_actions   	( tpress : TeamPress )
+- tpress_activation            	( tpress : TeamPress )
+- tpress_deactivation          	( tpress : TeamPress )
+- tpress_admin_menu            	( tpress : TeamPress )
+- tpress_admin_scripts         	( tpress : TeamPress )
+- tpress_admin_styles          	( tpress : TeamPress )
+- tpress_admin_dashboard_setup 	( tpress : TeamPress )
+- tpress_register_settings_tabs	( settings_view : TPressSettingsView )
+		
+== TPressUpdaterPlugin ==
+
+- tpress_new_installation      	( tpress : TeamPress )
+- tpress_before_update         	( tpress : TeamPress )
+- tpress_after_update          	( tpress : TeamPress )
+
+== TPressDashboardPlugin ==
+
+- tpress_admin_interface_register_views		( admin_interface : TPressAdminInterfacePlugin )
+
+- tpress_dashboard_before_main_links		( $dashboard_view : TPressDashboardView )
+- tpress_dashboard_after_main_links			( $dashboard_view : TPressDashboardView )
+- tpress_dashboard_before_panels			( $dashboard_view : TPressDashboardView )
+- tpress_dashboard_before_panel				( $dashboard_view : TPressDashboardView, $panel : TPressView )
+- tpress_dashboard_after_panel				( $dashboard_view : TPressDashboardView, $panel : TPressView )
+- tpress_dashboard_after_panels				( $dashboard_view : TPressDashboardView )
+- 
+
+== TPressProjectsPlugin ==
+
+- tpress_project_delete			( project_id : int )
+- tpress_project_update			( project_id : int, form_data : array )
+- tpress_project_create 		( project_id : int, form_data : array )
+
+== TPressTicketsPlugin ==
+
+-
+
+== TPressTasksPlugin ==
+
+- tpress_task_list_delete		( task_list_id : int )
+- tpress_task_list_update		( task_list_id : int, form_data : array )
+- tpress_task_list_create 		( task_list_id : int, form_data : array )
+
+- tpress_task_delete			( task_id : int )
+- tpress_task_update			( task_id : int, form_data : array )
+- tpress_task_create 			( task_id : int, form_data : array )

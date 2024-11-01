@@ -1,0 +1,71 @@
+.tpress-block {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 47.5%;
+	margin: 2em 1% 2em 1%;
+	
+	@include box-shadow(0 5px 10px #eee);
+	
+	border: 1px solid #dfdfdf;
+	background: #f9f9f9;
+	
+	&:hover {
+		background: tint( #f9f9f9, 80% );
+		@include box-shadow(0 3px 7px #aaa);
+	}
+	
+	@include border-radius(3px);
+	
+	.block-title {
+		position: relative;
+		margin: 0;
+		padding: 0 10px;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #dfdfdf;
+		@include border-top-radius(3px);
+		@include linear-gradient(top, #f9f9f9, #ececec);
+		
+		h3 {
+			display: inline-block;
+			width: auto;
+			margin: 0.7em 0;
+			text-align: left;
+			overflow: hidden;
+			font: {
+				family: $font-family-serif;
+				size: 1.2em;
+			}
+			text-shadow: rgba(255,255,255,0.8) 0 1px 0;
+		}
+		
+		span.actions {	
+			position: absolute;
+			right: 10px;
+			bottom: 0.7em;
+			text-align: right;
+		}
+		
+		a, a:visited, a:active {
+			color: #21759b;
+			text-decoration: none;
+			&:hover { color: #333; text-decoration: none; }
+		}
+	}
+	
+	.block-header {
+		margin: 3px 10px;
+	}
+	
+	.block-content {
+		color: #333; 
+		min-height: 100%;
+		margin: 10px;
+	}
+	
+	.block-footer {
+		position: absolute;
+		margin: 3px 10px;
+		bottom: 0;
+	}	
+}

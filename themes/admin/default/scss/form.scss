@@ -1,0 +1,9 @@
+form.tpress_form {
+	input, textarea, select, select[multiple] {
+		width: 100%;
+	}
+	
+	input.button-primary {
+		width: auto;
+	}
+}

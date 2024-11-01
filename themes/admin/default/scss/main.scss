@@ -1,0 +1,48 @@
+/*!
+Theme Name:     Default TeamPress Theme
+Theme URI:      http://www.marvinlabs.com/
+Author:         MarvinLabs
+Author URI:     http://www.marvinlabs.com
+Version:        1.0
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:700,400);
+
+// These are external imports
+@import "bourbon/bourbon";
+
+// Configuration
+$font-family-serif: 	'Libre Baskerville', serif;
+$font-family-sans: 		'Raleway', Helvetica, Arial, sans-serif;
+$user-badge-size-small:	35px;
+$user-badge-size-medium:60px;
+$user-badge-size-big:	90px;
+
+// Import our own styles
+@import "mixins";
+@import "wp-admin";
+@import "wp-rightnow";
+@import "form";
+@import "dialog";
+@import "panel";
+@import "card";
+@import "block";
+@import "projects";
+
+// Customized WP plugins
+ 
+// General elements
+#loading_indicator {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%; 
+	}
+}

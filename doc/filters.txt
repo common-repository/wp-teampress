@@ -1,0 +1,37 @@
+This file documents the filters provided by TeamPress to plugin developpers. 
+
+== TeamPress ==
+
+- tpress_theme_url						( theme_url : string, tpress : TeamPress )
+- tpress_admin_theme_url				( theme_url : string, tpress : TeamPress )
+- tpress_external_plugin_dependencies	( external_plugins : array )
+
+== TPressUpdaterPlugin ==
+
+- 
+
+== TPressDashboardPlugin ==
+
+- tpress_dashboard_right_now_statistics		( statistics : array )
+- tpress_dashboard_main_links				( links : array )
+
+== TPressProjectsPlugin ==
+
+- tpress_project_post_type_slug 			( current_slug : string )
+- tpress_project_register_post_type 		( params : array )
+- tpress_projects_leaders_capabilities		( params : capabilities )
+- tpress_projects_coworkers_capabilities	( params : capabilities )
+- tpress_projects_clients_capabilities		( params : capabilities )
+- tpress_project_load_users					( user => group : array )
+
+- the_project_users_summary_users			( users  : array )
+- the_project_users_summary 				( $output : string )
+
+== TPressTicketsPlugin ==
+
+- 
+
+== TPressTasksPlugin ==
+
+- tpress_task_post_type_slug			( current_slug : string )
+- tpress_task_list_post_type_slug		( current_slug : string )
